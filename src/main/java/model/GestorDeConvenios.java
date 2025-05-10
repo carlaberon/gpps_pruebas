@@ -1,0 +1,9 @@
+package model;
+
+import java.io.InputStream;
+
+public interface GestorDeConvenios {
+    void create(Convenio convenio);
+    void upDateArchivo(Convenio convenio);
+    void cargarArchivoConvenio(int idConvenio, InputStream archivoPDF);
+}
