@@ -7,6 +7,5 @@ public class testGenerarConvenio {
 
     public void Test01(){
 
-
     }
 }
